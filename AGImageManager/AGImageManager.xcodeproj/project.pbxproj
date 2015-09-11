@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		784055FE5D7C2644B5227AEB /* libPods-AGImageManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57991946A724DD7F43A0D745 /* libPods-AGImageManager.a */; };
+		A39A28031B9DD86400EB5D8E /* AGImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A39A28021B9DD86400EB5D8E /* AGImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A39A28091B9DD86400EB5D8E /* AGImageManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39A27FD1B9DD86400EB5D8E /* AGImageManager.framework */; };
+		A39A28101B9DD86400EB5D8E /* AGImageManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A280F1B9DD86400EB5D8E /* AGImageManagerTests.m */; };
+		A39A281B1B9DD98F00EB5D8E /* ImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A39A28191B9DD98F00EB5D8E /* ImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A39A281C1B9DD98F00EB5D8E /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A281A1B9DD98F00EB5D8E /* ImageManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A39A280A1B9DD86400EB5D8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A39A27F41B9DD86400EB5D8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A39A27FC1B9DD86400EB5D8E;
+			remoteInfo = AGImageManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D41F2E444A026490E6BFB18 /* Pods-AGImageManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGImageManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGImageManager/Pods-AGImageManager.release.xcconfig"; sourceTree = "<group>"; };
+		57991946A724DD7F43A0D745 /* libPods-AGImageManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AGImageManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39A27FD1B9DD86400EB5D8E /* AGImageManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGImageManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39A28011B9DD86400EB5D8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A39A28021B9DD86400EB5D8E /* AGImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGImageManager.h; sourceTree = "<group>"; };
+		A39A28081B9DD86400EB5D8E /* AGImageManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGImageManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39A280E1B9DD86400EB5D8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A39A280F1B9DD86400EB5D8E /* AGImageManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGImageManagerTests.m; sourceTree = "<group>"; };
+		A39A28191B9DD98F00EB5D8E /* ImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManager.h; sourceTree = "<group>"; };
+		A39A281A1B9DD98F00EB5D8E /* ImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManager.m; sourceTree = "<group>"; };
+		E21B2E9BA7EF3B21C4B44A92 /* Pods-AGImageManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGImageManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGImageManager/Pods-AGImageManager.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A39A27F91B9DD86400EB5D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784055FE5D7C2644B5227AEB /* libPods-AGImageManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39A28051B9DD86400EB5D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39A28091B9DD86400EB5D8E /* AGImageManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3173268E527579E1EB16F17E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57991946A724DD7F43A0D745 /* libPods-AGImageManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8161BE2DD14BCCFD77406428 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E21B2E9BA7EF3B21C4B44A92 /* Pods-AGImageManager.debug.xcconfig */,
+				0D41F2E444A026490E6BFB18 /* Pods-AGImageManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A39A27F31B9DD86400EB5D8E = {
+			isa = PBXGroup;
+			children = (
+				A39A27FF1B9DD86400EB5D8E /* AGImageManager */,
+				A39A280C1B9DD86400EB5D8E /* AGImageManagerTests */,
+				A39A27FE1B9DD86400EB5D8E /* Products */,
+				8161BE2DD14BCCFD77406428 /* Pods */,
+				3173268E527579E1EB16F17E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A39A27FE1B9DD86400EB5D8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A39A27FD1B9DD86400EB5D8E /* AGImageManager.framework */,
+				A39A28081B9DD86400EB5D8E /* AGImageManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A39A27FF1B9DD86400EB5D8E /* AGImageManager */ = {
+			isa = PBXGroup;
+			children = (
+				A39A28021B9DD86400EB5D8E /* AGImageManager.h */,
+				A39A28191B9DD98F00EB5D8E /* ImageManager.h */,
+				A39A281A1B9DD98F00EB5D8E /* ImageManager.m */,
+				A39A28001B9DD86400EB5D8E /* Supporting Files */,
+			);
+			path = AGImageManager;
+			sourceTree = "<group>";
+		};
+		A39A28001B9DD86400EB5D8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A39A28011B9DD86400EB5D8E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A39A280C1B9DD86400EB5D8E /* AGImageManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A39A280F1B9DD86400EB5D8E /* AGImageManagerTests.m */,
+				A39A280D1B9DD86400EB5D8E /* Supporting Files */,
+			);
+			path = AGImageManagerTests;
+			sourceTree = "<group>";
+		};
+		A39A280D1B9DD86400EB5D8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A39A280E1B9DD86400EB5D8E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A39A27FA1B9DD86400EB5D8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39A281B1B9DD98F00EB5D8E /* ImageManager.h in Headers */,
+				A39A28031B9DD86400EB5D8E /* AGImageManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A39A27FC1B9DD86400EB5D8E /* AGImageManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39A28131B9DD86400EB5D8E /* Build configuration list for PBXNativeTarget "AGImageManager" */;
+			buildPhases = (
+				DB3EE20EF3B00E53902D35CF /* Check Pods Manifest.lock */,
+				A39A27F81B9DD86400EB5D8E /* Sources */,
+				A39A27F91B9DD86400EB5D8E /* Frameworks */,
+				A39A27FA1B9DD86400EB5D8E /* Headers */,
+				A39A27FB1B9DD86400EB5D8E /* Resources */,
+				0D51D1AABEE1854013CCC984 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGImageManager;
+			productName = AGImageManager;
+			productReference = A39A27FD1B9DD86400EB5D8E /* AGImageManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A39A28071B9DD86400EB5D8E /* AGImageManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39A28161B9DD86400EB5D8E /* Build configuration list for PBXNativeTarget "AGImageManagerTests" */;
+			buildPhases = (
+				A39A28041B9DD86400EB5D8E /* Sources */,
+				A39A28051B9DD86400EB5D8E /* Frameworks */,
+				A39A28061B9DD86400EB5D8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A39A280B1B9DD86400EB5D8E /* PBXTargetDependency */,
+			);
+			name = AGImageManagerTests;
+			productName = AGImageManagerTests;
+			productReference = A39A28081B9DD86400EB5D8E /* AGImageManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A39A27F41B9DD86400EB5D8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Azmal;
+				TargetAttributes = {
+					A39A27FC1B9DD86400EB5D8E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A39A28071B9DD86400EB5D8E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = A39A27F71B9DD86400EB5D8E /* Build configuration list for PBXProject "AGImageManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A39A27F31B9DD86400EB5D8E;
+			productRefGroup = A39A27FE1B9DD86400EB5D8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A39A27FC1B9DD86400EB5D8E /* AGImageManager */,
+				A39A28071B9DD86400EB5D8E /* AGImageManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A39A27FB1B9DD86400EB5D8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39A28061B9DD86400EB5D8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D51D1AABEE1854013CCC984 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AGImageManager/Pods-AGImageManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB3EE20EF3B00E53902D35CF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A39A27F81B9DD86400EB5D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39A281C1B9DD98F00EB5D8E /* ImageManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39A28041B9DD86400EB5D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39A28101B9DD86400EB5D8E /* AGImageManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A39A280B1B9DD86400EB5D8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A39A27FC1B9DD86400EB5D8E /* AGImageManager */;
+			targetProxy = A39A280A1B9DD86400EB5D8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A39A28111B9DD86400EB5D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A39A28121B9DD86400EB5D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A39A28141B9DD86400EB5D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E21B2E9BA7EF3B21C4B44A92 /* Pods-AGImageManager.debug.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AGImageManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A39A28151B9DD86400EB5D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D41F2E444A026490E6BFB18 /* Pods-AGImageManager.release.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AGImageManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A39A28171B9DD86400EB5D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AGImageManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A39A28181B9DD86400EB5D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AGImageManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A39A27F71B9DD86400EB5D8E /* Build configuration list for PBXProject "AGImageManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39A28111B9DD86400EB5D8E /* Debug */,
+				A39A28121B9DD86400EB5D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A39A28131B9DD86400EB5D8E /* Build configuration list for PBXNativeTarget "AGImageManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39A28141B9DD86400EB5D8E /* Debug */,
+				A39A28151B9DD86400EB5D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A39A28161B9DD86400EB5D8E /* Build configuration list for PBXNativeTarget "AGImageManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39A28171B9DD86400EB5D8E /* Debug */,
+				A39A28181B9DD86400EB5D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A39A27F41B9DD86400EB5D8E /* Project object */;
+}
